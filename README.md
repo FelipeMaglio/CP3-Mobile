@@ -1,53 +1,51 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# CP1 Mobile - Formulário de Cadastro
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Sobre o Projeto
 
-## Get started
+Este é um aplicativo mobile desenvolvido em React Native com Expo.
+O objetivo do projeto é criar um formulário de cadastro simples que permite ao usuário inserir informações e visualizar os dados na própria tela após o envio.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades
 
-2. Start the app
+* Preenchimento de formulário com:
 
-   ```bash
-   npx expo start
-   ```
+  * Nome
+  * Curso
+  * Disciplina
+  * Descrição pessoal
+* Botão para envio dos dados
+* Exibição das informações preenchidas na tela
+* Uso de estados com `useState`
+* Uso de `useEffect` ao iniciar o app
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tecnologias Utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* React Native
+* Expo
+* JavaScript / TypeScript
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Como Executar o Projeto
 
-```bash
-npm run reset-project
+1. Clone o repositório:
+
+```
+git clone https://github.com/FelipeMaglio/CP1-Mobile.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Acesse a pasta do projeto:
 
-## Learn more
+```
+cd CP1-Mobile
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Execute o projeto:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-
+```
+npx expo start
+```
