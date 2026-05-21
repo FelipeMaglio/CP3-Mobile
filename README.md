@@ -5,7 +5,9 @@ Aplicativo mobile desenvolvido com React Native + Expo + Expo Router, contendo f
 ---
 
 Equipe
+
 Felipe Maglio Filho - RM563512
+
 Mateus Granja dos Santos - RM564930
 
 ---
