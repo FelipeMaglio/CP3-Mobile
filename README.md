@@ -4,7 +4,7 @@ Aplicativo mobile desenvolvido com React Native + Expo + Expo Router, contendo f
 
 ---
 
-Equipe
+# Equipe
 
 Felipe Maglio Filho - RM563512
 
