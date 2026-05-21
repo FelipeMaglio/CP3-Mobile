@@ -8,31 +8,31 @@ import {
 } from 'react-native';
 
 // ─── DADOS DOS DESENVOLVEDORES ────────────────────────────────────────────────
-// ⚠️ Substitua pelos dados reais da sua equipe!
+
 const desenvolvedores = [
   {
     id: 1,
-    nome: 'Felipe Maglio',            // ← TROQUE pelo nome real
-    rm: 'RM: 12345',                  // ← TROQUE pelo RM real
+    nome: 'Felipe Maglio Filho',          
+    rm: 'RM: 563512',                
     curso: 'Análise e Desenvolvimento de Sistemas',
-    turma: '1TDSPR',
+    turma: '2TDSPJ',
     funcao: '👨‍💻 Desenvolvedor Full-Stack',
-    foto: null, // ← coloque: require('../../assets/images/felipe.jpg')
+    foto: null, 
     inicial: 'F',
     cor: '#2563EB',
   },
   {
     id: 2,
-    nome: 'Nome do Colega 2',         // ← TROQUE
-    rm: 'RM: 67890',                  // ← TROQUE
+    nome: 'Mateus Granja dos Santos',    
+    rm: 'RM: 564930',            
     curso: 'Análise e Desenvolvimento de Sistemas',
-    turma: '1TDSPR',
+    turma: '2TDSPJ',
     funcao: '🎨 Designer & Dev',
-    foto: null, // ← coloque: require('../../assets/images/colega2.jpg')
-    inicial: 'C',
+    foto: null, 
+    inicial: 'M',
     cor: '#7C3AED',
   },
-  // Adicione mais integrantes se necessário
+  
 ];
 
 // ─── COMPONENTE DE CARD ────────────────────────────────────────────────────────
